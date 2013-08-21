@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="/image/favicon.png">
+        <title>Sticky Footer Navbar Template for Bootstrap</title>    
+        <link href="/css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="/css/sticky-footer-navbar.css" rel="stylesheet">
+        <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">          
+        <link href="/css/flat-ui.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="/js/html5shiv.js"></script>
+          <script src="/js/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            a{
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <div id="wrap">
+
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active">                                    
+                                    <a href="admin/category">
+                                        <i class="icon-sitemap icon-2x"></i> Category
+                                        <span class="navbar-unread">1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="admin/classified">
+                                        <i class="icon-reorder icon-2x"></i> Classified                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="admin/user">
+                                        <i class="icon-user icon-2x"></i> User                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="admin/comment">
+                                        <i class="icon-comment icon-2x"></i> Comment                                        
+                                    </a>
+                                </li>                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">                
+                <div class="row" style="margin-top: 50px">
+                    <div class="span5">
+                        <form class="form-horizontal" role="form" id="create-category-form">
+                            <fieldset>
+                                <legend>create new category</legend>
+                                <div class="form-group">
+                                    <label for="categoryName" class="col-lg-2 control-label">Category name</label>
+                                    <div class="col-lg-3 inline-block">
+                                        <input type="text" class="form-control" id="categoryName" placeholder="category name" name="rule-category-name">                                        
+                                        <span class="help-block"><i class="icon-apple icon-2x"></i> <label id="liveshowcategory">Category</label></span>
+                                    </div>                                    
+                                    <label class="control-label" id="invalid-categoryName"></label>                                    
+                                </div>
+                                <div class="form-group">
+                                    <label for="categoryDesc" class="col-lg-2 control-label">Category Description</label>
+                                    <div class="col-lg-3">
+                                        <input type="text" class="form-control" id="categoryDesc" placeholder="category description" name="rule-category-desc">
+                                    </div>
+                                    <label class="control-label" id="invalid-categoryDesc"></label>  
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputLogo" class="col-lg-2 control-label">Category Logo</label>
+                                    <div class="col-lg-3">
+                                        <input type="text" class="form-control" id="inputLogo" placeholder="icon-apple" disabled>
+                                    </div>
+                                </div>                            
+                                <div class="form-group">
+                                    <div class="col-lg-offset-2 col-lg-3">
+                                        <button class="btn btn-block btn-info" id="btn-create">Create</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="span8">
+                        <form role="form">
+                            <fieldset>
+                                <legend>category list</legend>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                                <p>asfassafsafsafdsafdsafdsafdsafsafsafdsafdsf</p>
+                            </fieldset>
+                        </form>
+                    </div>                   
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+            </div>
+        </div>
+
+        <script src="/js/jquery-1.8.3.min.js"></script>        
+        <script src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="/js/jquery.ui.touch-punch.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/bootstrap-select.js"></script>
+        <script src="/js/bootstrap-switch.js"></script>
+        <script src="/js/flatui-checkbox.js"></script>
+        <script src="/js/flatui-radio.js"></script>
+        <script src="/js/jquery.tagsinput.js"></script>
+        <script src="/js/jquery.placeholder.js"></script>
+        <script src="/js/jquery.stacktable.js"></script>
+        <script src="/js/application.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/additional-methods.min.js"></script>
+        <script src="/js/jquery.json-2.4.min.js"></script>
+        
+        <script>
+            var validator = null;
+
+            function updateFormLookAndFeel() {
+                var form = $("#create-category-form");
+                
+                form.find("input").each(function() {
+                   if($(this).valid() === true) {
+                       $(this).parent().removeClass("has-error").addClass("has-success");
+                   } else {
+                       $(this).parent().addClass("has-error").removeClass("has-success");
+                   }
+                });
+                if (form.valid() === true) {
+                    $("#btn-create").removeClass("disabled");
+                    return true;
+                } else {
+                    $("#btn-create").addClass("disabled");
+                    return false;
+                }
+            }
+
+            function clearForm() {
+                $("#create-category-form").find("input").each(function() {
+                   $(this).val("");
+                   $(this).parent().removeClass("has-error");
+                });
+                $("#liveshowcategory").text("Category");
+                
+            }
+            
+            function createFormValidator() {
+                var form = $("#create-category-form");
+                var rules = new Object();
+                rules["rule-category-name"] = {
+                    required: true,
+                    minlength: 3,
+                    maxlength: 20
+                };
+                rules["rule-category-desc"] = {
+                    required: true,
+                    minlength: 3,
+                    maxlength: 32
+                };
+                validator = form.validate({
+                    rules: rules,
+                    errorPlacement: function(error, element) {
+                        error.appendTo($("#invalid-" + element.attr('id')));
+                    },
+                    onkeyup: function(element) {
+                        updateFormLookAndFeel();
+                    },
+                    onfocusout: function(element) {
+                        updateFormLookAndFeel();
+                    }
+                });
+
+            }
+
+            $(document).ready(function() {
+
+                createFormValidator();
+
+                $("#categoryName").focusout(function() {
+                    $("#liveshowcategory").text($(this).val());
+                });
+
+                $("#btn-create").live("click", function(event) {
+                    event.preventDefault();
+                    
+                    if(updateFormLookAndFeel() === false) {
+                        return;
+                    }
+                                        
+                    var category = {
+                      name: $("#categoryName").val(),
+                      desc: $("#categoryDesc").val()
+                    };
+                    
+                    $.ajax({
+                        url: "/admin/service/category",                        
+                        type: 'post',
+                        dataType: 'json',
+                        data: category,
+                        success: function(data) {
+                            clearForm();
+                        },
+                        error: function(error) {
+                            console.log(error);
+                        }
+                    });
+                    
+                });
+
+            });
+        </script>
+    </body>
+</html>
